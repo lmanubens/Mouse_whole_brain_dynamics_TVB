@@ -1,0 +1,20 @@
+name: mouse_whole_brain_dynamics_tvb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - requests
+  - pip:
+      - tvb-library
+      - tvb-data
+      - allensdk
+      - siibra
+      - urllib3
